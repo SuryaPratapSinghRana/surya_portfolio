@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Surya Pratap Singh Rana, a B.Tech CSE student and web developer specializing in creating brilliant web solutions.">
+    <title>Surya Pratap Singh Rana | Developer Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="#" class="logo" aria-label="Surya Pratap Singh Rana's logo">Surya</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-menu-container">
+                <button class="theme-toggle" aria-label="Toggle dark/light theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section" aria-labelledby="hero-heading">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <p class="intro-text">Hi, I'm</p>
+                    <h1 id="hero-heading" class="name-heading">Surya Pratap Singh Rana</h1>
+                    <h2 class="tagline-heading"><span class="typing-text"></span></h2>
+                    <p class="hero-description">
+                        A passionate Computer Science student crafting innovative and beautiful web solutions that make an impact.
+                    </p>
+                    <a href="#projects" class="btn">View My Projects</a>
+                </div>
+                <div class="hero-image-container">
+                    <!-- <div class="hero-image-aura"></div> -->
+                    <img src="profile2.jpg" alt="A professional headshot of Surya Pratap Singh Rana" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="content-section" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading" class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>
+                        Hello! I’m Surya, a B.Tech Computer Science student at Graphic Era Hill University, passionate about transforming complex problems into simple, user-friendly software solutions. My journey into technology began with a small curiosity about how programs work—and since then, I’ve been inspired by the limitless potential of building tools that empower and inspire others.
+                    </p>
+                    <p>
+                        I specialize in full-stack development and am always eager to explore new technologies. When I'm not coding, you can find me diving into tech articles, contributing to open-source projects, or seeking adventure outdoors.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="content-section" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading" class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="devicon-mongodb-plain-wordmark colored"></i><span>MongoDB</span></div>
+                    <div class="skill-item"><i class="devicon-express-original-wordmark colored"></i><span>Express.js</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-react"></i><span>React</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="skill-item"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading" class="section-title">My Recent Work</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <h3>MERN Stack CarMarketplace Platform</h3>
+                        <p>Developed a full-stack car listing platform using MongoDB, Express.js, React.js, and Node.js, featuring secure JWT-based authentication with protected routes via Express middleware. Designed a responsive, optimized UI with Tailwind CSS for a smooth experience across all devices.</p>
+                        <div class="project-tech-list">
+                            <span>React</span><span>Node.js</span><span>Mongodb</span>
+                            <span>Express</span>
+                        </div>
+                    </article>
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <h3> Neural Network Powered Stock Price Predictor</h3>
+                        <p>Developed a machine learning model to predict stock market trends with high accuracy using Python, TensorFlow, and historical data APIs.</p>
+                         <div class="project-tech-list">
+                            <span>Python</span><span>TensorFlow</span><span>Scikit-learn</span>
+                        </div>
+                    </article>
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <h3>AI-Based Learning Management System (LMS) using MERN Stack</h3>
+                        <p>Built a full-stack AI-powered e-learning platform using the MERN stack, featuring authentication, course enrollment, personalized dashboards, and a dynamic UI. Integrated OpenAI APIs to auto-generate course content, banners, and YouTube suggestions, along with a subscription system and progress tracking.
+
+</p>
+                         <div class="project-tech-list">
+                            <span>MongoDB</span><span>Express</span><span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" role="contentinfo" aria-labelledby="contact-heading">
+        <div class="container">
+            <h2 id="contact-heading" class="section-title">Get In Touch</h2>
+            <p class="contact-text">
+                I’m currently seeking new opportunities and am always excited to collaborate on interesting projects. Whether you have a question or just want to say hi, my inbox is open!
+            </p>
+            <a href="mailto:suryarana2711@gmail.com" class="btn">Say Hello</a>
+            <div class="social-links">
+                <a href="https://github.com/suryapratapsinghrana" 
+   target="_blank" 
+   aria-label="GitHub profile" 
+   style="text-align: center; display: inline-block; text-decoration: none;">
+  <i class="fa-brands fa-github" style="font-size: 24px;"></i><br/>
+  <span style="font-size: 12px;">GitHub</span>
+</a>
+
+                <a href="https://www.linkedin.com/in/surya-pratap-singh-rana-0b4a2132a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+   target="_blank" 
+   aria-label="LinkedIn profile" 
+   style="text-align: center; display: inline-block; text-decoration: none;">
+  <i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i><br/>
+  <span style="font-size: 12px;">LinkedIn</span>
+</a>
+
+               <a href="https://leetcode.com/u/Surya_Rana/" 
+   target="_blank" 
+   aria-label="LeetCode profile" 
+   style="text-align: center; display: inline-block; text-decoration: none;">
+  <i class="fa-solid fa-code" style="font-size: 24px;"></i><br/>
+  <span style="font-size: 12px;">LeetCode</span>
+</a>
+            </div>
+            <p class="copyright">Designed & Built with <i class="fa-solid fa-heart" style="color: var(--main-color);"></i> by Surya Pratap Singh Rana © 2024</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
